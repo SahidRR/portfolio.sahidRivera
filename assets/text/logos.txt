@@ -1,0 +1,20 @@
+Contribucion de iconos: 
+CSS3:
+<a href="https://www.flaticon.es/iconos-gratis/css-3" title="css 3 iconos">Css 3 iconos creados por Freepik - Flaticon</a>
+
+HTML 5:
+<a href="https://www.flaticon.es/iconos-gratis/html-5" title="html 5 iconos">Html 5 iconos creados por Freepik - Flaticon</a>
+
+PYTHON:
+
+<a href="https://www.flaticon.es/iconos-gratis/archivo-de-python" title="archivo de python iconos">Archivo de python iconos creados por Flat Icons - Flaticon</a>
+
+
+Bootstrap:
+<a href="https://www.flaticon.com/free-icons/bootstrap" title="bootstrap icons">Bootstrap icons created by Freepik - Flaticon</a>
+
+MySql:
+<a href="https://www.flaticon.com/free-icons/mysql" title="mysql icons">Mysql icons created by Freepik - Flaticon</a>
+
+React:
+<a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a>
