@@ -498,6 +498,50 @@ aside>article {
   translate: 0 -46px;
 }
 
+
+.md-textbox3{
+  position: relative;
+}
+
+.md-textbox3 :is(label,span){
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  pointer-events: none;
+  color: #8A2BE2;
+  transition: 0.3s;
+}
+
+.md-textbox3 > label {
+  left: 10px;
+  translate: 0 -50%;
+  padding: 4px 8px;
+}
+.md-textbox3 > span {
+  right: 16px;
+  font-size: 28px;
+}
+
+.md-textbox3 > input{
+  height: 56px;
+  width: 440px;
+  padding-left: 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background:transparent ;
+  color: white;
+}
+
+.md-textbox3 > :is(input:focus, .has-value) ~ span{
+  color: #f9f9f9;
+}
+
+.md-textbox3 > :is(input:focus, .has-value) ~ label{
+  background:  #151515;
+  color: rgb(255 255 255 /85%);
+  translate: 0 -46px;
+}
+
 #errEmail{
   color:#FF5E00;
   font-size: 75%;
