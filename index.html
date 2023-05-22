@@ -96,8 +96,7 @@
                     </ul>
                 </div>
             </section>
-            <section class="colorFondo cambio1 mt-3 mb-3 container-fluid zoom  overflow-auto"
-                id="agrandarG">
+            <section class="colorFondo cambio1 mt-3 mb-3 container-fluid zoom  overflow-auto" id="agrandarG">
                 <div>
                     <h2>Contacto:</h2>
                     <div>
@@ -134,8 +133,7 @@
                 </div>
 
             </article>
-            <article class="container-fluid colorFondo cambio1 mt-3 zoom cambio1  overflow-auto"
-                id="agrandarD">
+            <article class="container-fluid colorFondo cambio1 mt-3 zoom cambio1  overflow-auto" id="agrandarD">
                 <h2>Tecnologías:</h2>
                 <div class="row">
                     <img src="./assets/img/js.png" alt="Logo js" class="img2 col-3 col-sm-2 col-md-3 col-lg-3">
@@ -188,29 +186,34 @@
             <div>
                 <h3 class="mb-4">Formulario</h3>
             </div>
-            <div class="md-textbox">
-                <input oninput="handleChange(event)" id="input" type="text" requ>
-                <label htmlFor="input">Nombre</label>
-                <div id="errNombre" class="ml-2"></div>
-            </div>
-            <div class="md-textbox2 mt-4">
-                <input oninput="handleChange2(event)" class="" id="input2" type="text">
-                <label htmlFor="input2">Email</label>
-                <div id="errEmail" class="ml-2"></div>
-            </div>
-            <div class="md-textbox3 mt-3">
-                <input oninput="handleChange3(event)" class="overflow-auto" id="input3" type="text">
-                <label htmlFor="input3">Comentario</label>
-            </div>
-            <div class="mt-4">
-                <button class="white cambio3 clr3" id="btn2"><span>ENVIAR</span></button>
-                <button id="borrar-html" class="float-end">Borrar HTML</button>
-            </div>
+            <form method="post" action="">
+                <div class="md-textbox">
+                    <input oninput="handleChange(event)" id="input" type="text" name="name">
+                    <label for="input">Nombre</label>
+                    <div id="errNombre" class="ml-2"></div>
+                </div>
+                <div class="md-textbox2 mt-4">
+                    <input oninput="handleChange2(event)" class="" id="input2" type="text" name="email">
+                    <label for="input2">Email</label>
+                    <div id="errEmail" class="ml-2"></div>
+                </div>
 
-            
+                <div class="md-textbox3 mt-3">
+                    <input oninput="handleChange3(event)" class="overflow-auto" id="input3" type="text" name="message">
+                    <label for="input3">Comentario</label>
+                </div>
+                <div class="mt-4">
+                    <button class="white cambio3 clr3" id="btn2" type="submit"><span>ENVIAR</span></button>
+                    <button id="borrar-html" class="float-end">Borrar HTML</button>
+                </div>
+            </form>
         </div>
+
+
+
         <div class="colorFondo mt-5">
-            <a href="./api.html" target="_blank"><button class="white clr1 cambio3"><span>Peliculas más populares</span> </button></a>
+            <a href="./api.html" target="_blank"><button class="white clr1 cambio3"><span>Peliculas más populares</span>
+                </button></a>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
