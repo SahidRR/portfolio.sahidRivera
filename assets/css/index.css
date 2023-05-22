@@ -486,6 +486,8 @@ aside>article {
   border-radius: 8px;
   background:transparent ;
   color: white;
+  word-wrap: break-word;
+  max-width:100%;
 }
 
 .md-textbox2 > :is(input:focus, .has-value) ~ span{
@@ -501,6 +503,7 @@ aside>article {
 
 .md-textbox3{
   position: relative;
+
 }
 
 .md-textbox3 :is(label,span){
@@ -530,6 +533,8 @@ aside>article {
   border-radius: 8px;
   background:transparent ;
   color: white;
+  word-wrap: break-word;
+  max-width:100%;
 }
 
 .md-textbox3 > :is(input:focus, .has-value) ~ span{

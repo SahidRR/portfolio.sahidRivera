@@ -79,7 +79,7 @@ const input2 = document.querySelector("#input2");
 input2.addEventListener("input", (event) => handleInputChange(input2));
 
 const input3 = document.querySelector("#input3");
-input2.addEventListener("input", (event) => handleInputChange(input3));
+input3.addEventListener("input", (event) => handleInputChange(input3));
 
 //REGEX
 
