@@ -182,34 +182,32 @@
             </article>
 
         </aside>
-        <div class="container-fluid mt-5 colorFondo cambio1 zoom" id="agrandarH">
+        <form class="container-fluid mt-5 colorFondo cambio1 zoom" id="agrandarH">
             <div>
                 <h3 class="mb-4">Formulario</h3>
             </div>
-            <form method="post" action="">
-                <div class="md-textbox">
-                    <input oninput="handleChange(event)" id="input" type="text" name="name">
-                    <label for="input">Nombre</label>
-                    <div id="errNombre" class="ml-2"></div>
-                </div>
-                <div class="md-textbox2 mt-4">
-                    <input oninput="handleChange2(event)" class="" id="input2" type="text" name="email">
-                    <label for="input2">Email</label>
-                    <div id="errEmail" class="ml-2"></div>
-                </div>
+            <div class="md-textbox">
+                <input oninput="handleChange(event)" id="input" name="name" type="text" requ>
+                <label htmlFor="input">Nombre</label>
+                <div id="errNombre" class="ml-2"></div>
+            </div>
+            <div class="md-textbox2 mt-4">
+                <input oninput="handleChange2(event)" class="" id="input2" name="email" type="text">
+                <label htmlFor="input2">Email</label>
+                <div id="errEmail" class="ml-2"></div>
+            </div>
 
-                <div class="md-textbox3 mt-3">
-                    <input oninput="handleChange3(event)" class="overflow-auto" id="input3" type="text" name="message">
-                    <label for="input3">Comentario</label>
-                </div>
-                <div class="mt-4">
-                    <button class="white cambio3 clr3" id="btn2" type="submit"><span>ENVIAR</span></button>
-                    <button id="borrar-html" class="float-end">Borrar HTML</button>
-                </div>
-            </form>
-        </div>
+            <div class="md-textbox3 mt-3">
+                <input oninput="handleChange3(event)" class="overflow-auto" id="input3" name="message" type="text">
+                <label htmlFor="input3">Comentario</label>
+            </div>
 
+            <div class="mt-4">
+                <button type="submit" class="white cambio3 clr3" id="btn2"><span>ENVIAR</span></button>
+                <button id="borrar-html" class="float-end">Borrar HTML</button>
+            </div>
 
+        </form>
 
         <div class="colorFondo mt-5">
             <a href="./api.html" target="_blank"><button class="white clr1 cambio3"><span>Peliculas más populares</span>
